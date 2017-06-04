@@ -13,17 +13,20 @@
 	<title>Text</title>
 	
   </head>
-  <body>
+  <body id="b">
   <div class="proov"><h1>Loo lihtne veebilehe külastajate loendur. Kuva lehe külastuste arvu ja viimase külastuse aega.</h1></div>
+	 
 	 <div class="soodapohi">
+		<form method="POST" action=''>
+	<table id='bog'>
+		<tr><td></td><td>Tegin veel, et saaks vaadata kõik külalised. <br> Et saaks vaadata, et üleval ikka näitab eelmine külastuse aeg, mitte hetkine.</td></tr>
+		<tr><td>Boonus. </td><td><input type="submit" name='n' value="Näita kõik külalised ning uuenda koduleht."></td></tr></td></tr>
 		
-	<table>
-		<tr><td></td><td>Kulastajate arv</td></tr>
-		<tr><td></td><td></td></tr></td></tr>
 	</table>
+	</form>
 	</div>
   
-  <input type="submit" name='n' value="Näita viimase külastuse aega.">
+  
     
 	<?php 
 	include('aju.php');
